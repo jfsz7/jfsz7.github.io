@@ -1,23 +1,26 @@
+
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
-body> * {
-    padding: 20px;
+body > * {
+  padding: 20px;
 }
-header,footer {
-    line-height: 40px;
+header {
+  background: rgb(195, 241, 238);
 }
-header> a {
-text-decoration: none;
+header,
+footer {
+  line-height: 40px;
 }
-header> a:not(:last-child) {
-margin-right: 24px;
+header > a {
+  text-decoration: none;
+}
+header > a:not(:last-child) {
+  margin-right: 24px;
 }
 main {
-    flex-grow: 1;
-   
-
+  flex-grow: 1;
 }
