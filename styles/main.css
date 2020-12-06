@@ -9,7 +9,7 @@ body > * {
 }
 header {
   background: rgb(197, 185, 240);
-  word-spacing: 20px;
+  display: flex;
 }
 header,
 footer {
