@@ -9,17 +9,21 @@ body > * {
 }
 header {
   background: rgb(197, 185, 240);
-  word-spacing: 20px;
+  display: flex;
 }
 header,
 footer {
   line-height: 40px;
 }
-header > a {
+header a {
   text-decoration: none;
 }
-header > a:not(:last-child) {
+header a:not(:last-child) {
   margin-right: 24px;
+}
+
+header .left-header {
+  margin-right: auto;
 }
 main {
   flex-grow: 1;
