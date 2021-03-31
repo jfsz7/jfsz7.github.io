@@ -5,7 +5,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  
 }
 body > * {
   padding: 0px;
@@ -22,7 +21,7 @@ footer {
   line-height: 30px;
 }
 header a {
-  text-decoration:none;
+  text-decoration: solid;
   color: white;
 }
 header a:not(:last-child) {
