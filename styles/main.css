@@ -7,7 +7,7 @@ body {
   height: 100vh;
 }
 body > * {
-  padding: 0px;
+  padding: 20px;
   background-size: cover;
   background-position: center;
 }
