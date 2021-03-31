@@ -5,9 +5,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  
 }
 body > * {
-  padding: 2000px;
+  padding: 0px;
   background-size: cover;
   background-position: center;
 }
