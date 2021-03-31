@@ -5,12 +5,14 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+
 }
 body > * {
   padding: 20px;
   background-size: cover;
   background-position: center;
-  
+  width: 100%;
+
 }
 header {
   background: rgb(3, 3, 3);
