@@ -1,16 +1,19 @@
 
 body {
   background-image: url(https://c4.wallpaperflare.com/wallpaper/506/959/705/beautiful-anime-girl-sakura-cherry-blossom-wallpaper-preview.jpg);
-  margin: 0;
+  margin: 100%;
   display: flex;
   flex-direction: column;
   height: 100vh;
+  padding: 100%;
 
 }
 body > * {
   padding: 20px;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  
 
 }
 header {
@@ -20,11 +23,11 @@ header {
 }
 header,
 footer {
-  line-height: 30px;
+  line-height: 20px;
 }
 header a {
   text-decoration: solid;
-  color: white;
+  color: lavender;
 }
 header a:not(:last-child) {
   margin-right: 24px;
