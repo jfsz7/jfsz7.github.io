@@ -9,7 +9,7 @@ body {
 }
 body > * {
   padding: 20px;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
 
 }
