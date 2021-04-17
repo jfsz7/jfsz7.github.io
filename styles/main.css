@@ -35,3 +35,6 @@ header .left-header {
 main {
   flex-grow: 1;
 }
+.flex-container{
+  flex-wrap: wrap;
+}
